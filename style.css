@@ -141,8 +141,9 @@ body{
 
 }
 @media screen and (max-width: 780px) {
-    .footer-section{
-        height: 680px;
+    .footer-section
+    {
+        height: 700px;
     }
   }
 
