@@ -1,0 +1,96 @@
+.ml-auto{
+    margin-left: auto;
+    padding: 0px 20px;
+}
+.e-school-button{
+    background: #21B573;
+    border-radius: 33px;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+.header{
+    background-color: #F0FFF0;
+    height:500px;
+}
+.logo-img{
+    height: 59px;
+    width: 200px;
+}
+.title-color{
+    color:  #21B573;
+}
+.container{
+    margin-bottom: 100px;
+}
+.banner-bg h1{
+    font-weight: 700;
+}
+.feature1, .feature2, .feature3, .feature4{
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    border-radius: 20px;
+}
+.features img{
+    width: 25%;
+    padding-bottom: 5px;
+}
+.feature2, .feature3{
+    width: 10px !important;
+
+}
+
+.features{
+    margin-top: 100px;
+}
+.feature1, .feature3, .feature4{
+    background-color:  #F8FFFB;
+}
+#courses h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+.card-body img{
+    border-radius: 11px;
+    margin:0 auto;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    width: 200px;
+}
+.card-footer img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    
+}
+.card-footer-text{
+    font-weight: 500;
+}
+.testimonial h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+.testimonial-img{
+    width:70%;
+}
+.footer-section{
+    background-color: black;
+    color:#CDCDCD;
+    font-weight: 200;
+    padding-top: 100px;
+    height: 500px;
+}
+.footer-text{
+    padding-left: 60px;
+}
+.footer-div{
+    text-align: center;
+    color:#CDCDCD ;
+
+}
+
