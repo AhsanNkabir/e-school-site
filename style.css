@@ -1,6 +1,13 @@
+body{
+     font-family: 'Poppins', sans-serif;
+}
 .ml-auto{
     margin-left: auto;
     padding: 0px 20px;
+    font-weight: 500;
+}
+.nav-item{
+    padding: 0px 10px;
 }
 .e-school-button{
     background: #21B573;
@@ -13,6 +20,12 @@
     background-color: #F0FFF0;
     height:500px;
 }
+@media screen and (max-width: 780px) {
+    .header {
+        height: 680px;
+    }
+  }
+
 .logo-img{
     height: 59px;
     width: 200px;
@@ -27,39 +40,55 @@
     font-weight: 700;
 }
 .feature1, .feature2, .feature3, .feature4{
-    width: 270px;
+    width: 350 px;
     height: 270px;
     text-align: center;
     border-radius: 20px;
+    margin-top: 10px;
+
+}
+.feature2, .feature3{
+    margin: 10px 15px 0px 15px;
+}
+.feature2{
+    box-shadow: 5px 5px 20px lightgray;
 }
 .features img{
     width: 25%;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
-.feature2, .feature3{
-    width: 10px !important;
-
-}
-
 .features{
     margin-top: 100px;
 }
 .feature1, .feature3, .feature4{
-    background-color:  #F8FFFB;
+    background-color:  #F8FFF0;
 }
 #courses h2{
     text-align: center;
     padding-bottom: 50px;
     font-weight: 700;
+    color: #413960;;
 }
-.card-body img{
-    border-radius: 11px;
-    margin:0 auto;
-}
+@media screen and (min-width: 780px) {
+    #courses h5{
+        font-size: inherit;
+    }
+  }
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgray;
-    width: 200px;
+    padding-top: 15px;
+    border-radius: 11px;
+}
+.card img{
+    border-radius: 11px;
+    margin:0 auto;
+    width: 331px;
+    height: 234px;
+}
+.card-body{
+    width:270px;
+    height:160px;
 }
 .card-footer img{
     height: 15px;
@@ -67,8 +96,16 @@
     margin-right: 5px;
     
 }
+.card-footer{
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+}
 .card-footer-text{
     font-weight: 500;
+}
+.card-title{
+    font-weight: 700;
 }
 .testimonial h2{
     text-align: center;
@@ -76,7 +113,10 @@
     font-weight: 700;
 }
 .testimonial-img{
-    width:70%;
+    width:68%;
+}
+.testimonial p{
+    font-weight: 500;
 }
 .footer-section{
     background-color: black;
@@ -88,9 +128,16 @@
 .footer-text{
     padding-left: 60px;
 }
+.item-list small{
+    padding: 5px 0;
+}
+.item-list h4{
+    color: white;
+}
 .footer-div{
     text-align: center;
     color:#CDCDCD ;
+    padding-top: 170px;
 
 }
 
