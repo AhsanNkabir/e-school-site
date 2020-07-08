@@ -140,4 +140,9 @@ body{
     padding-top: 170px;
 
 }
+@media screen and (max-width: 780px) {
+    .footer-section{
+        height: 680px;
+    }
+  }
 
